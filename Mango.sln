@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35527.113
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FrontEnd", "FrontEnd", "{A263CB01-2F0B-4258-9E9C-55AA72301CC9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gateway", "Gateway", "{6D3211AF-1066-48AE-B295-3486742C8690}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Integration", "Integration", "{C7C0153F-CC71-4199-809C-01C9797FFAB0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{9FDAD9A8-C443-4D00-A1CB-D673F62D2006}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.CouponAPI", "Mango.Services.CouponAPI\Mango.Services.CouponAPI.csproj", "{5F4A76DA-128A-42B2-A2AB-5E119C532FF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{DFAB7590-5F68-4368-B459-639105A4D8AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.AuthAPI", "Mango.Services.AuthAPI\Mango.Services.AuthAPI.csproj", "{828F5F50-1EA8-43D6-90E6-1F585B7DF362}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.ProductAPI", "Mango.Services.ProductAPI\Mango.Services.ProductAPI.csproj", "{966FDE9B-4810-4EE4-B9DE-E68135500CCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mango.Services.ShoppingCartAPI", "Mango.Services.ShoppingCardAPI\Mango.Services.ShoppingCartAPI.csproj", "{ED79B393-8738-4C40-A23B-A77DCED6DCA8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F4A76DA-128A-42B2-A2AB-5E119C532FF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4A76DA-128A-42B2-A2AB-5E119C532FF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4A76DA-128A-42B2-A2AB-5E119C532FF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4A76DA-128A-42B2-A2AB-5E119C532FF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAB7590-5F68-4368-B459-639105A4D8AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAB7590-5F68-4368-B459-639105A4D8AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAB7590-5F68-4368-B459-639105A4D8AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAB7590-5F68-4368-B459-639105A4D8AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{828F5F50-1EA8-43D6-90E6-1F585B7DF362}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{828F5F50-1EA8-43D6-90E6-1F585B7DF362}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{828F5F50-1EA8-43D6-90E6-1F585B7DF362}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{828F5F50-1EA8-43D6-90E6-1F585B7DF362}.Release|Any CPU.Build.0 = Release|Any CPU
+		{966FDE9B-4810-4EE4-B9DE-E68135500CCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{966FDE9B-4810-4EE4-B9DE-E68135500CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{966FDE9B-4810-4EE4-B9DE-E68135500CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{966FDE9B-4810-4EE4-B9DE-E68135500CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED79B393-8738-4C40-A23B-A77DCED6DCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED79B393-8738-4C40-A23B-A77DCED6DCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED79B393-8738-4C40-A23B-A77DCED6DCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED79B393-8738-4C40-A23B-A77DCED6DCA8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F4A76DA-128A-42B2-A2AB-5E119C532FF7} = {9FDAD9A8-C443-4D00-A1CB-D673F62D2006}
+		{DFAB7590-5F68-4368-B459-639105A4D8AD} = {A263CB01-2F0B-4258-9E9C-55AA72301CC9}
+		{828F5F50-1EA8-43D6-90E6-1F585B7DF362} = {9FDAD9A8-C443-4D00-A1CB-D673F62D2006}
+		{966FDE9B-4810-4EE4-B9DE-E68135500CCC} = {9FDAD9A8-C443-4D00-A1CB-D673F62D2006}
+		{ED79B393-8738-4C40-A23B-A77DCED6DCA8} = {9FDAD9A8-C443-4D00-A1CB-D673F62D2006}
+	EndGlobalSection
+EndGlobal
